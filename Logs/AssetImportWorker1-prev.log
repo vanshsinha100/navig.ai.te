@@ -1,0 +1,1767 @@
+Unity Editor version:    2023.2.1f1 (a6dd9a634651)
+Branch:                  2023.2/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 14.0 (Build 23A344)
+Darwin version:          23.0.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: YES
+2024-01-18 19:06:26.259 Unity[77205:2146018] WARNING: Secure coding is not enabled for restorable state! Enable secure coding by implementing NSApplicationDelegate.applicationSupportsSecureRestorableState: and returning YES.
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+/Users/vanshsinha100/Desktop/Unity/Project1/navig.ai.te
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+64559
+-job-worker-count
+3
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: /Users/vanshsinha100/Desktop/Unity/Project1/navig.ai.te
+/Users/vanshsinha100/Desktop/Unity/Project1/navig.ai.te
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [7985042176] Host "[IP] 172.16.141.209 [Port] 0 [Flags] 2 [Guid] 814251168 [EditorId] 814251168 [Version] 1048832 [Id] OSXEditor(0,Vanshs-MacBook-Air.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [7985042176] Host "[IP] 172.16.141.209 [Port] 0 [Flags] 2 [Guid] 814251168 [EditorId] 814251168 [Version] 1048832 [Id] OSXEditor(0,Vanshs-MacBook-Air.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 3
+[Physics::Module] Initialized MultithreadedJobDispatcher with 3 workers.
+Library Redirect Path: Library/
+Refreshing native plugins compatible for Editor in 3.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2023.2.1f1 (a6dd9a634651)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/vanshsinha100/Desktop/Unity/Project1/navig.ai.te/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+ preferred device: Apple M1 (high power)
+Metal devices available: 1
+0: Apple M1 (high power)
+Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56205
+Begin MonoManager ReloadAssembly
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001634 seconds.
+- Loaded All Assemblies, in  0.330 seconds
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+icall.c:1842:
+icall.c:1842:
+- Finished resetting the current domain, in  0.231 seconds
+Domain Reload Profiling: 561ms
+	BeginReloadAssembly (111ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (144ms)
+		LoadAssemblies (122ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (130ms)
+			TypeCache.Refresh (129ms)
+				TypeCache.ScanAssembly (115ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (231ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (191ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (5ms)
+			ProcessInitializeOnLoadAttributes (134ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image /Users/vanshsinha100/Desktop/Unity/Project1/navig.ai.te/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/vanshsinha100/Desktop/Unity/Project1/navig.ai.te/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.623 seconds
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.440 seconds
+Domain Reload Profiling: 1063ms
+	BeginReloadAssembly (190ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (372ms)
+		LoadAssemblies (228ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (176ms)
+			TypeCache.Refresh (158ms)
+				TypeCache.ScanAssembly (137ms)
+			BuildScriptInfoCaches (13ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (440ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (314ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (30ms)
+			ProcessInitializeOnLoadAttributes (266ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Launching external process: /Applications/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.22 seconds
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 79 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3805 unused Assets / (24.1 MB). Loaded Objects now: 4356.
+Memory consumption went from 156.4 MB to 132.3 MB.
+Total: 39.608334 ms (FindLiveObjects: 0.833500 ms CreateObjectMapping: 0.193791 ms MarkObjects: 4.166875 ms  DeleteObjects: 34.412791 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 188546.798538 seconds.
+  path: Assets/Toon Racing 1.4.0
+  artifactKey: Guid(f400c0042e800470ca632d266c171966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing 1.4.0 using Guid(f400c0042e800470ca632d266c171966) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2a32f05173671e7b3055d140fd52dd0f') in 0.009130875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.365133 seconds.
+  path: Assets/Toon Racing/Models/Materials/Dirt_Ramps_1A_D.mat
+  artifactKey: Guid(2157063da9398e242b639ad16ede6337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Models/Materials/Dirt_Ramps_1A_D.mat using Guid(2157063da9398e242b639ad16ede6337) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '855fc67f0a83942c64457b66c22880b3') in 0.474390584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000919 seconds.
+  path: Assets/Toon Racing/Models/Materials/Race_Car_8C_D.mat
+  artifactKey: Guid(3af8ad65ff88ac8459425e98ee5093ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Models/Materials/Race_Car_8C_D.mat using Guid(3af8ad65ff88ac8459425e98ee5093ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5fb99d6370a32b9635fd3e3e83835694') in 0.011444 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Toon Racing/Models/Materials/Logo_1A_D.mat
+  artifactKey: Guid(32072de3272974bc4b704e7e639e6301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Models/Materials/Logo_1A_D.mat using Guid(32072de3272974bc4b704e7e639e6301) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8da430358d54731c47611d092455a4ab') in 0.228361125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Toon Racing/Models/Materials/Rally_Car_1A_D.mat
+  artifactKey: Guid(fe71f4a8d40144924a79c1602cabb9eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Models/Materials/Rally_Car_1A_D.mat using Guid(fe71f4a8d40144924a79c1602cabb9eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e139f4ec7b183b10346e3129b0424050') in 0.004270875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Toon Racing/Models/Materials/Fence_01A_D.mat
+  artifactKey: Guid(2215f37343a5dad4bb59988a5dbe28d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Models/Materials/Fence_01A_D.mat using Guid(2215f37343a5dad4bb59988a5dbe28d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3e98cc2095ec69752bf0d44a297c8fdb') in 0.005546917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Toon Racing/Models/Materials/Race_Car_5C_D.mat
+  artifactKey: Guid(f52dcc8461f87644fba21a595abe38bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Models/Materials/Race_Car_5C_D.mat using Guid(f52dcc8461f87644fba21a595abe38bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ab34f5391a3883aca5e7b5fbeb67b970') in 0.004722083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Toon Racing/Models/Materials/Race_Car_7C_D.mat
+  artifactKey: Guid(e5c90f61afd0ac44388955c08df75dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Models/Materials/Race_Car_7C_D.mat using Guid(e5c90f61afd0ac44388955c08df75dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c0fc608fbddd0df717413dbcf816fdb1') in 0.007336208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Toon Racing/Models/Materials/Markers_1A.mat
+  artifactKey: Guid(4cbea8f3b7dd1f0449920e4667c3a1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Models/Materials/Markers_1A.mat using Guid(4cbea8f3b7dd1f0449920e4667c3a1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '04ea4f6c7f6791dabc1502d1eb5b6a54') in 0.061959584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Toon Racing/Models/Materials/Garage_1A_D.mat
+  artifactKey: Guid(09c12b7a432094e6faf9e493ad20c066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Models/Materials/Garage_1A_D.mat using Guid(09c12b7a432094e6faf9e493ad20c066) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '987fa86c1dfffb568017d22bdfb35d5c') in 0.004569875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Toon Racing/Models/Materials/Rally_Car_3C_D.mat
+  artifactKey: Guid(d4829061a0672cc4c97ded7dfb9ba59f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Models/Materials/Rally_Car_3C_D.mat using Guid(d4829061a0672cc4c97ded7dfb9ba59f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b31e4b0812523c3d1a0faebe1d183ec6') in 0.005825083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Toon Racing/Models/Materials/Monster_Truck_11A_D.mat
+  artifactKey: Guid(5537e6f5cf27244d1aba0195e7bbe2b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Models/Materials/Monster_Truck_11A_D.mat using Guid(5537e6f5cf27244d1aba0195e7bbe2b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '01e4a4da9e042f528d81a6e9e4c14009') in 0.005090166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Toon Racing/Models/Materials/Race_Car_8B_D.mat
+  artifactKey: Guid(502b2de6f69da4ecc8af39c35671448e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Models/Materials/Race_Car_8B_D.mat using Guid(502b2de6f69da4ecc8af39c35671448e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '676572356d2056203be844f93d62f044') in 0.004836875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/Toon Racing/Models/Materials/Rally_Car_2A_D.mat
+  artifactKey: Guid(d859f10c11f494dbaacd970d0b53f794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Models/Materials/Rally_Car_2A_D.mat using Guid(d859f10c11f494dbaacd970d0b53f794) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4f141090275c14d9a86a1ed32854dffa') in 0.006890708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Toon Racing/Models/Materials/Rally_Car_1B_D.mat
+  artifactKey: Guid(b08ab0d8e5a1340c5a6467e1f70faada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Models/Materials/Rally_Car_1B_D.mat using Guid(b08ab0d8e5a1340c5a6467e1f70faada) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a058a278b0522212ba0155d196fe4b02') in 0.004393583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Toon Racing/Models/Materials/Rally_Car_3B_D.mat
+  artifactKey: Guid(335949edbeea142608dca67fdb2d70cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Models/Materials/Rally_Car_3B_D.mat using Guid(335949edbeea142608dca67fdb2d70cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '380b972c7f504d1922188cc8c332f8fc') in 0.006441542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Toon Racing/Models/Materials/Platform_1A_D.mat
+  artifactKey: Guid(97a0a2499a51344469de74055a71c5dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Models/Materials/Platform_1A_D.mat using Guid(97a0a2499a51344469de74055a71c5dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '50755499f48c504ec1390ab329ba79ba') in 0.003928334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Toon Racing/Models/Materials/Rally_Car_1C_D.mat
+  artifactKey: Guid(6960921ac66a818488d79ec1a74290f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Models/Materials/Rally_Car_1C_D.mat using Guid(6960921ac66a818488d79ec1a74290f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f37fd509c48ae8ae32a54ef03b9f048e') in 0.004043 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/Toon Racing/Models/Materials/Monster_Truck_10B_D.mat
+  artifactKey: Guid(39fc29981f06c42609810ef03394ba9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Models/Materials/Monster_Truck_10B_D.mat using Guid(39fc29981f06c42609810ef03394ba9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2e4d5a3f5bf2fbc0effd8ce9352a8979') in 0.006245042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Toon Racing/Models/Materials/Monster_Truck_9A_D.mat
+  artifactKey: Guid(4c5f60a59a90e4f5c99b8bd72ccb0203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Models/Materials/Monster_Truck_9A_D.mat using Guid(4c5f60a59a90e4f5c99b8bd72ccb0203) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6a834d99fa080e2f4dfbfdfe7a566c96') in 0.004220417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Toon Racing/Models/Materials/Race_Car_5B_D.mat
+  artifactKey: Guid(fdb2c157015374cb5a0cbcf8ef4fd587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Models/Materials/Race_Car_5B_D.mat using Guid(fdb2c157015374cb5a0cbcf8ef4fd587) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e51fb9a3a8459e48ff68d38f2c3987bb') in 0.003793167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Toon Racing/Models/Materials/Props_01A_D.mat
+  artifactKey: Guid(33d7d86ed63d59247ae4635434a0fc10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Models/Materials/Props_01A_D.mat using Guid(33d7d86ed63d59247ae4635434a0fc10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '06879b7d2a1d9c61debde4ac9c70484e') in 0.005448833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Toon Racing/Models/Materials/Rally_Car_2B_D.mat
+  artifactKey: Guid(65086b09f179c4709b4a16d31e780bc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Models/Materials/Rally_Car_2B_D.mat using Guid(65086b09f179c4709b4a16d31e780bc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'beb3dd31818eb9451333d4c3cbe03c96') in 0.004064791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Toon Racing/Models/Materials/Race_Car_6A_D.mat
+  artifactKey: Guid(872bbb25050614002b91f6831fba9450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Models/Materials/Race_Car_6A_D.mat using Guid(872bbb25050614002b91f6831fba9450) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4a727d3819209aa6416aa2efa91d4f55') in 0.004184208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Toon Racing/Models/Materials/Race_Car_5A_D.mat
+  artifactKey: Guid(9d0ac379a26f64f9cbb8994b6bc066b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Models/Materials/Race_Car_5A_D.mat using Guid(9d0ac379a26f64f9cbb8994b6bc066b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a851db6c4e6ed0cf0495a6ee9ffedbbc') in 0.004435709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Toon Racing/Models/Materials/Race_Car_7A_D.mat
+  artifactKey: Guid(f388822791e904b83a0c6818071066a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Models/Materials/Race_Car_7A_D.mat using Guid(f388822791e904b83a0c6818071066a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ae9b75862b11bd321fa702ab73b5dc16') in 0.0043335 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/Toon Racing/Models/Materials/Race_Car_6C_D.mat
+  artifactKey: Guid(706263ed0c56e0048a4d65411638b973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Models/Materials/Race_Car_6C_D.mat using Guid(706263ed0c56e0048a4d65411638b973) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '80f5ae6145e52c479b91d65def0f6345') in 0.004798417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Toon Racing/Models/Materials/Monster_Truck_9B_D.mat
+  artifactKey: Guid(1b50bc5e5b83e401b911c9b12467706d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Models/Materials/Monster_Truck_9B_D.mat using Guid(1b50bc5e5b83e401b911c9b12467706d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9af7c939f657ac5fabe25afaab594f35') in 0.004848125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Toon Racing/Models/Materials/Rally_Car_4A_D.mat
+  artifactKey: Guid(edfac2b3d9c1e4c52b31e2bae6cf8a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Models/Materials/Rally_Car_4A_D.mat using Guid(edfac2b3d9c1e4c52b31e2bae6cf8a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '34855a8f35b8f86030b8cde873735359') in 0.004412291 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Toon Racing/Models/Materials/Race_Car_7B_D.mat
+  artifactKey: Guid(75f4febaf735e464a80a49eb2f438ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Models/Materials/Race_Car_7B_D.mat using Guid(75f4febaf735e464a80a49eb2f438ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '28df183273487521d27948ef4d66283f') in 0.008015791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Toon Racing/Models/Materials/Monster_Truck_10A_D.mat
+  artifactKey: Guid(8142ed8d7b2e54189a266a75c3b8688d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Models/Materials/Monster_Truck_10A_D.mat using Guid(8142ed8d7b2e54189a266a75c3b8688d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fc50b15bcf47fa68a7464550efb8a7df') in 0.00420275 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Toon Racing/Models/Materials/Rally_Car_2C_D.mat
+  artifactKey: Guid(eb4c693f7cd212448a14f9d634af7542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Models/Materials/Rally_Car_2C_D.mat using Guid(eb4c693f7cd212448a14f9d634af7542) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fa0df7027732eb06728453384dc52cfc') in 0.008643125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Toon Racing/Models/Materials/Race_Car_8A_D.mat
+  artifactKey: Guid(2a7c89ec0667c45cca95c7da49c3baad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Models/Materials/Race_Car_8A_D.mat using Guid(2a7c89ec0667c45cca95c7da49c3baad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2d739644a4f329b677b4dbd7dc5b5768') in 0.004372875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Toon Racing/Models/Materials/Pavement_01A_D.mat
+  artifactKey: Guid(bbc83f7aeebd2524f96c9eff9ec7ebb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Models/Materials/Pavement_01A_D.mat using Guid(bbc83f7aeebd2524f96c9eff9ec7ebb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd0e1f4e8c7ade5e85e7db35e514d73b7') in 0.005062667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Toon Racing/Models/Materials/Logo_02A_D.mat
+  artifactKey: Guid(4592fb239d6438b41a0d36e028efbc5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Models/Materials/Logo_02A_D.mat using Guid(4592fb239d6438b41a0d36e028efbc5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '413445fc96bb7a8b564d34c2a5e89a6a') in 0.006107917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Toon Racing/Models/Materials/Monster_Truck_12B_D.mat
+  artifactKey: Guid(06ab9090651a546a9937049b632bfd2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Models/Materials/Monster_Truck_12B_D.mat using Guid(06ab9090651a546a9937049b632bfd2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '399f60f9b3f543e868251ac18a085d14') in 0.004970958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Toon Racing/Models/Materials/Race_Car_6B_D.mat
+  artifactKey: Guid(ecd244c7d3d0748a3b88ccd6d6228266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Models/Materials/Race_Car_6B_D.mat using Guid(ecd244c7d3d0748a3b88ccd6d6228266) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '585368c1487ede3da25389979b5c8c3c') in 0.00746375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Toon Racing/Models/Materials/Rally_Car_3A_D.mat
+  artifactKey: Guid(e3342d6af59054f3c8fdb307b3a08a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Models/Materials/Rally_Car_3A_D.mat using Guid(e3342d6af59054f3c8fdb307b3a08a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2ac33a5068c54de7e702141d99e47f17') in 0.004496833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.624579 seconds.
+  path: Assets/Toon Racing/Models/Materials/Rally_Car_4C_D.mat
+  artifactKey: Guid(b6e2c588ad1362d40b255e76c4e069b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Models/Materials/Rally_Car_4C_D.mat using Guid(b6e2c588ad1362d40b255e76c4e069b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '41820a6c42d529aba94565b2128b40e6') in 0.004004 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Toon Racing/Models/Materials/TR_Terrain.mat
+  artifactKey: Guid(9a994562ddb0c654988ab11be181ba2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Models/Materials/TR_Terrain.mat using Guid(9a994562ddb0c654988ab11be181ba2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a3831f6946ca6e94e610fa119d5fc950') in 0.317023166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.846394 seconds.
+  path: Assets/Toon Racing/Models/Barrel_1B.fbx
+  artifactKey: Guid(690b3338ff459470bb5f78d39ffc8ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Models/Barrel_1B.fbx using Guid(690b3338ff459470bb5f78d39ffc8ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '733837e62491c06eb0c7cd1709652c41') in 0.414731875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Toon Racing/Models/Fence_3A.fbx
+  artifactKey: Guid(64d667df797e743d0816c5a1b3a4eba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Models/Fence_3A.fbx using Guid(64d667df797e743d0816c5a1b3a4eba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e1c9ad70a918addcac016a5b52878ac1') in 0.007467125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Toon Racing/Models/Extinguisher_1A.fbx
+  artifactKey: Guid(1298b160f236f4036a2ed24053380500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Models/Extinguisher_1A.fbx using Guid(1298b160f236f4036a2ed24053380500) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3a9ee3252a56a80ab8a61fd208046850') in 0.00692125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Toon Racing/Models/Fence_1A.fbx
+  artifactKey: Guid(2cd2de00ecbf94043a7437ba58e82f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Models/Fence_1A.fbx using Guid(2cd2de00ecbf94043a7437ba58e82f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c4102f906dac11c2c4dcc119b359f993') in 0.008148292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Toon Racing/Models/Pine_Tree_1A.fbx
+  artifactKey: Guid(7274e735750af428783d34f242c4b5af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Models/Pine_Tree_1A.fbx using Guid(7274e735750af428783d34f242c4b5af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9816e6bb288441f69da1a9649216cfc0') in 0.006811292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Toon Racing/Models/Billboard_2F.fbx
+  artifactKey: Guid(0b3d4fd6ea648433d8abd12e23231e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Models/Billboard_2F.fbx using Guid(0b3d4fd6ea648433d8abd12e23231e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fbbe6a5e1c2cdc799caa9276f4783897') in 0.021040167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Toon Racing/Models/Cone_1A.fbx
+  artifactKey: Guid(4c6e47352f6ce486385c44cb8f1143d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Models/Cone_1A.fbx using Guid(4c6e47352f6ce486385c44cb8f1143d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '61f800f1921ff06196a4d2162aea0f79') in 0.0087385 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Toon Racing/Models/Fence_3B.fbx
+  artifactKey: Guid(78ce2c311840f432e891f6188d5e5cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Models/Fence_3B.fbx using Guid(78ce2c311840f432e891f6188d5e5cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6978b39db8f1e37f79fdb072b901852c') in 0.009507167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Toon Racing/Models/Curve_1A.fbx
+  artifactKey: Guid(85a7a8218a6b646048d4da0e0476a744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Models/Curve_1A.fbx using Guid(85a7a8218a6b646048d4da0e0476a744) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '38d2522232e87dea18153b83f6405b43') in 0.014818875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Toon Racing/Models/Logo_1B.fbx
+  artifactKey: Guid(765cfd65a984a4d898cb4a93c7f69b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Models/Logo_1B.fbx using Guid(765cfd65a984a4d898cb4a93c7f69b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '41c2011001477760e52ea4249562635d') in 0.006111625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Toon Racing/Models/Fence_3C.fbx
+  artifactKey: Guid(d0aebaeb79fb84ac1b52cd9c3d6666da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Models/Fence_3C.fbx using Guid(d0aebaeb79fb84ac1b52cd9c3d6666da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '56cbc3be8cfd637b6541ba54932ee9e8') in 0.009580333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Toon Racing/Models/Cone_1B.fbx
+  artifactKey: Guid(021fec076fc83484986e33c3df5c2156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Models/Cone_1B.fbx using Guid(021fec076fc83484986e33c3df5c2156) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1e82308d637bba032e17020f17f4e78a') in 0.006043125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Toon Racing/Models/Logo_2A.fbx
+  artifactKey: Guid(726a27b3cdbd140cbba74907bb7d6c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Models/Logo_2A.fbx using Guid(726a27b3cdbd140cbba74907bb7d6c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '89ed9f245cd5914a2639b9f6c01e535b') in 0.006583208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Toon Racing/Models/Pavement_1A.fbx
+  artifactKey: Guid(0037e910e47ff4b239d4d43d907066fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Models/Pavement_1A.fbx using Guid(0037e910e47ff4b239d4d43d907066fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b87c189a013bd1285a59218f69ac772d') in 0.007093417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Toon Racing/Models/Monster_Truck_12A.fbx
+  artifactKey: Guid(335bec568474f4298868875cfef10fbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Models/Monster_Truck_12A.fbx using Guid(335bec568474f4298868875cfef10fbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '399a3f12575bbcbd2b052edcc4896bba') in 0.05757 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 58
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Toon Racing/Models/Garage_1A.fbx
+  artifactKey: Guid(b48a5ac97b22e433fbb280173267f995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Models/Garage_1A.fbx using Guid(b48a5ac97b22e433fbb280173267f995) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '23a059cc60a1382a27134b2422553e2c') in 0.070164292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 56
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.344456 seconds.
+  path: Assets/Toon Racing/Models/Pine_Tree_2A.fbx
+  artifactKey: Guid(179b19c3739174871ab8157c92f8573e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Models/Pine_Tree_2A.fbx using Guid(179b19c3739174871ab8157c92f8573e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '04ac39fc91afc56a07fd777ab136dc07') in 0.007649375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Toon Racing/Models/Pine_Tree_2B.fbx
+  artifactKey: Guid(d7b241b817a0b43bcbc516cdef8e10b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Models/Pine_Tree_2B.fbx using Guid(d7b241b817a0b43bcbc516cdef8e10b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ac07c111acd7e5afd59ce699287e5694') in 0.007439042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Toon Racing/Models/Race_Car_5A.fbx
+  artifactKey: Guid(1ce33a5fc4a9d439fb1d67b47d1ac767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Models/Race_Car_5A.fbx using Guid(1ce33a5fc4a9d439fb1d67b47d1ac767) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '11fc9d96374e66bace52bc5f7757b234') in 0.153555708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 133
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Toon Racing/Models/Colliders/Rally_Car_2A_MeshCollider.fbx
+  artifactKey: Guid(33adf916b6a4a4a658637e36a6099dd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Models/Colliders/Rally_Car_2A_MeshCollider.fbx using Guid(33adf916b6a4a4a658637e36a6099dd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd96340c4edf78aba60de7e44b85d0ef6') in 0.166294417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Toon Racing/Models/Sign_Support_1C.fbx
+  artifactKey: Guid(aa965da25152d48a0ae185be40e3185d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Models/Sign_Support_1C.fbx using Guid(aa965da25152d48a0ae185be40e3185d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '431f699c2401100294a8a4dc6bd0978d') in 0.013343917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Toon Racing/Models/Rally_Car_2A.fbx
+  artifactKey: Guid(1e0b0afe7b98a43a7bc6582f9ad18612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Models/Rally_Car_2A.fbx using Guid(1e0b0afe7b98a43a7bc6582f9ad18612) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a4f45f61757ac12ce06f6b4b7264518b') in 0.070367208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 71
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Toon Racing/Models/Rotation_Marker.fbx
+  artifactKey: Guid(b96f419f2377540bb9cde62226506326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Models/Rotation_Marker.fbx using Guid(b96f419f2377540bb9cde62226506326) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd4fcc22fa9472faca1b573b8f7b5ed2b') in 0.008481375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Toon Racing/Models/Rally_Car_1A.fbx
+  artifactKey: Guid(0a8561d5627f24a0ca917661a4fe6d75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Models/Rally_Car_1A.fbx using Guid(0a8561d5627f24a0ca917661a4fe6d75) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd3d9b5c4ba26e810532b86784283b601') in 0.072251917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Toon Racing/Models/Serpentine_1A_Medium.fbx
+  artifactKey: Guid(3858a926f9b5749fa9247ff72674dd60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Models/Serpentine_1A_Medium.fbx using Guid(3858a926f9b5749fa9247ff72674dd60) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aa4a9156e079eee968213d435a0cc58e') in 0.014432917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Toon Racing/Models/Serpentine_1A_Long.fbx
+  artifactKey: Guid(0f303e14291134298b50f4fceabc1e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Models/Serpentine_1A_Long.fbx using Guid(0f303e14291134298b50f4fceabc1e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '17b02dc35f2d559246d26a7d0b8b0d86') in 0.013381334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Toon Racing/Models/Serpentine_1B_Medium.fbx
+  artifactKey: Guid(f2e54328547284425826e88dc893611e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Models/Serpentine_1B_Medium.fbx using Guid(f2e54328547284425826e88dc893611e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '57798ee66ae5bf907cf8d71272b01cfb') in 0.012778833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Toon Racing/Models/Rally_Car_4A.fbx
+  artifactKey: Guid(2745bd9a9e5de45cf948c92de120f297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Models/Rally_Car_4A.fbx using Guid(2745bd9a9e5de45cf948c92de120f297) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0e88295caf85bde32e1970392e0de171') in 0.106205375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 71
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.887489 seconds.
+  path: Assets/Toon Racing/Models/Sign_Support_3A.fbx
+  artifactKey: Guid(d032c2094f22348a8bbe19ca4e404363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Models/Sign_Support_3A.fbx using Guid(d032c2094f22348a8bbe19ca4e404363) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f32b8f46f4040a216802e6c57eb7692b') in 0.012600042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Toon Racing/Models/Special_1D.fbx
+  artifactKey: Guid(e32b203de81304d868ccbce44c041ac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Models/Special_1D.fbx using Guid(e32b203de81304d868ccbce44c041ac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '48b5701f26a2dbc735eb4a513ed7640c') in 0.006836125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Toon Racing/Models/Special_1C.fbx
+  artifactKey: Guid(7b91eaa9890a94ddeadd6dd0b8485bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Models/Special_1C.fbx using Guid(7b91eaa9890a94ddeadd6dd0b8485bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f86952e16cc12c536993a06fec2e1743') in 0.012762958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Toon Racing/Models/Special_1A.fbx
+  artifactKey: Guid(ebce414c180194b92844141e03321316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Models/Special_1A.fbx using Guid(ebce414c180194b92844141e03321316) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '59a051abecb240c4116ddd2715822d11') in 0.011770958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.585847 seconds.
+  path: Assets/Toon Racing/Prefabs/Cars/Monster Trucks/Monster_Truck_10B.prefab
+  artifactKey: Guid(45c4ac827d32841b9969781ec50a1b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Prefabs/Cars/Monster Trucks/Monster_Truck_10B.prefab using Guid(45c4ac827d32841b9969781ec50a1b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '53acdcdfba5cc911460547042a4795bf') in 0.005683958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 59
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Toon Racing/Prefabs/Cars/Monster Trucks/Monster_Truck_11A.prefab
+  artifactKey: Guid(a60286117953b45109bb4f01384dce3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Prefabs/Cars/Monster Trucks/Monster_Truck_11A.prefab using Guid(a60286117953b45109bb4f01384dce3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '869328fe1978b2cb7089122333e20fba') in 0.004087792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 59
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Toon Racing/Prefabs/Cars/Rally/Rally_Car_2B.prefab
+  artifactKey: Guid(75e65f2b91ba84bc4a655501f54df469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Prefabs/Cars/Rally/Rally_Car_2B.prefab using Guid(75e65f2b91ba84bc4a655501f54df469) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bfc42636e87eee826fbc28a8def7c91f') in 0.005319542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 78
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Toon Racing/Prefabs/Cars/Rally/Rally_Car_3C.prefab
+  artifactKey: Guid(34a795d4163962c44a2a42cd6a8c5c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Prefabs/Cars/Rally/Rally_Car_3C.prefab using Guid(34a795d4163962c44a2a42cd6a8c5c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c0b0d0d5b47e8f999eafb0f10967feae') in 0.00728875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 65
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Toon Racing/Prefabs/Cars/Rally/Rally_Car_1B.prefab
+  artifactKey: Guid(125db6ed243c3467b9b7ddf2b5178340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Prefabs/Cars/Rally/Rally_Car_1B.prefab using Guid(125db6ed243c3467b9b7ddf2b5178340) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aa269079e9c990a09dbf9f79f1351c8f') in 0.00650025 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 71
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Toon Racing/Prefabs/Cars/Racing/Race_Car_5A.prefab
+  artifactKey: Guid(bcd9ada952ed249879f2149c2266f8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Prefabs/Cars/Racing/Race_Car_5A.prefab using Guid(bcd9ada952ed249879f2149c2266f8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '081ad71576f828ea41df5a171574ca01') in 0.006360083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 139
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Toon Racing/Prefabs/Cars/Racing/Race_Car_6A.prefab
+  artifactKey: Guid(29dd1fdf56447464180e290da95f4425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Prefabs/Cars/Racing/Race_Car_6A.prefab using Guid(29dd1fdf56447464180e290da95f4425) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6e06463dbc795fd596a108b60a3a54e3') in 0.008173333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 137
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Toon Racing/Prefabs/Cars/Racing/Race_Car_5B.prefab
+  artifactKey: Guid(3aaf9d9467ee342bfb15380464a9a12c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Prefabs/Cars/Racing/Race_Car_5B.prefab using Guid(3aaf9d9467ee342bfb15380464a9a12c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ac4b1df89da54cadfd0d2adadbaffc51') in 0.00943225 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 137
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Toon Racing/Prefabs/Cars/Rally/Rally_Car_4C.prefab
+  artifactKey: Guid(02035d56d03f7e441b84e0c4cd29f77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Prefabs/Cars/Rally/Rally_Car_4C.prefab using Guid(02035d56d03f7e441b84e0c4cd29f77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9f133097eb04121574200a6380759fab') in 0.005399834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 76
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Packages/com.unity.ml-agents/Tests/Editor/TestModels/old_serialized_agent.prefab
+  artifactKey: Guid(07e2de94fa37b49c3bdf7a21857c0f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ml-agents/Tests/Editor/TestModels/old_serialized_agent.prefab using Guid(07e2de94fa37b49c3bdf7a21857c0f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '23b14f551b15f8fb81e7eb3302e890b7') in 0.002349041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Toon Racing/Prefabs/Cars/Racing/Race_Car_8A.prefab
+  artifactKey: Guid(f326f971530384152990514252f63de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Prefabs/Cars/Racing/Race_Car_8A.prefab using Guid(f326f971530384152990514252f63de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7602edcf09a38ba80c5221d3a537d688') in 0.005543041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 137
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Toon Racing/Prefabs/Cars/Racing/Race_Car_6B.prefab
+  artifactKey: Guid(1b82079bbc5064ef78676a5a00cc0d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Prefabs/Cars/Racing/Race_Car_6B.prefab using Guid(1b82079bbc5064ef78676a5a00cc0d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7b537ab7846098d49cb24c1dae9d9363') in 0.005464583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 137
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Toon Racing/Prefabs/Cars/Monster Trucks/Monster_Truck_11B.prefab
+  artifactKey: Guid(54db991b3103249e19150505cbeebd70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Prefabs/Cars/Monster Trucks/Monster_Truck_11B.prefab using Guid(54db991b3103249e19150505cbeebd70) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c604e73bc37cfa8744e4a45eb9d54c57') in 0.005347292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 59
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Toon Racing/Prefabs/Cars/Racing/Race_Car_7A.prefab
+  artifactKey: Guid(57974f3098fdb45dbac6337f9569e733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Prefabs/Cars/Racing/Race_Car_7A.prefab using Guid(57974f3098fdb45dbac6337f9569e733) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e2e242d72dd98d627c67f6b15ed39677') in 0.005576833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 137
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Toon Racing/Prefabs/Props/Rocks_1B.prefab
+  artifactKey: Guid(cfae4eb229870da4b8890b84f8475cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Prefabs/Props/Rocks_1B.prefab using Guid(cfae4eb229870da4b8890b84f8475cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e12717cc5b651bf68878f411db245992') in 0.003487458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Toon Racing/Prefabs/Cars/Rally/Rally_Car_2A.prefab
+  artifactKey: Guid(6297f5873427b4a6186eeed06fb4ec91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Prefabs/Cars/Rally/Rally_Car_2A.prefab using Guid(6297f5873427b4a6186eeed06fb4ec91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ce4cbbfb4b1515c644fafb434aaeb0c1') in 0.004831334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 76
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Toon Racing/Prefabs/Cars/Rally/Rally_Car_3A.prefab
+  artifactKey: Guid(feecd96ddcc5745628257de8cb099d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Prefabs/Cars/Rally/Rally_Car_3A.prefab using Guid(feecd96ddcc5745628257de8cb099d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2e9ae25ebe921927af75ce834e80438b') in 0.004245 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 65
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Toon Racing/Prefabs/Cars/Racing/Race_Car_8B.prefab
+  artifactKey: Guid(3b981ec3600e94497a1d52a7d106a8c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Prefabs/Cars/Racing/Race_Car_8B.prefab using Guid(3b981ec3600e94497a1d52a7d106a8c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1c3b03c47b0e4bbc11dcef0c5e0a0c33') in 0.005505709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 137
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Toon Racing/Prefabs/Props/Rocks_1A.prefab
+  artifactKey: Guid(a3a084ebbb2e7dd4e96a28cd55b16705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Prefabs/Props/Rocks_1A.prefab using Guid(a3a084ebbb2e7dd4e96a28cd55b16705) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '53bef72288a285959bbd68dd759789c6') in 0.005769375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Toon Racing/Prefabs/Props/Pine_Tree_2B.prefab
+  artifactKey: Guid(0831cdba81b55485489920cd230adadb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Prefabs/Props/Pine_Tree_2B.prefab using Guid(0831cdba81b55485489920cd230adadb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9c6020eb91aadcb7f151216817feed2a') in 0.004076541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Toon Racing/Prefabs/Cars/Rally/Rally_Car_1C.prefab
+  artifactKey: Guid(5298c752cea89b041a379ad623910a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Prefabs/Cars/Rally/Rally_Car_1C.prefab using Guid(5298c752cea89b041a379ad623910a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2be44341804c5bee9003dd645b2da257') in 0.004646417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 72
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.859313 seconds.
+  path: Assets/Toon Racing/Prefabs/Props/Impact_Tires_2C.prefab
+  artifactKey: Guid(d811ab83cac0a4251b7dc6e2c8f82d60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Prefabs/Props/Impact_Tires_2C.prefab using Guid(d811ab83cac0a4251b7dc6e2c8f82d60) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '43e9354ee996d86774a76f2d63e7e614') in 0.006774625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 63
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Toon Racing/Prefabs/Cars/Monster Trucks/Monster_Truck_9B.prefab
+  artifactKey: Guid(644ae24762fc442a4ba526e61ffed2e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Prefabs/Cars/Monster Trucks/Monster_Truck_9B.prefab using Guid(644ae24762fc442a4ba526e61ffed2e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b06d279f6a6f197ffe49750d30a6e4f5') in 0.004746834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 80
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Toon Racing/Prefabs/Props/Logo_2A.prefab
+  artifactKey: Guid(1ac6a952cefc94fb8b1c6f17e08632ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Prefabs/Props/Logo_2A.prefab using Guid(1ac6a952cefc94fb8b1c6f17e08632ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '95c1afeb2b04523fab905ef4c2c227cb') in 0.004739333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Toon Racing/Prefabs/Props/Logo_1A.prefab
+  artifactKey: Guid(82922830eb6b443f9b7cd433563e9e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Prefabs/Props/Logo_1A.prefab using Guid(82922830eb6b443f9b7cd433563e9e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '070cff5e8ba9e76e7e5326c788913470') in 0.004777959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.071401 seconds.
+  path: Assets/Toon Racing/Prefabs/Buildings/Garage_1A.prefab
+  artifactKey: Guid(0fad7ee2a02b24243ae0119f7bc185b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Prefabs/Buildings/Garage_1A.prefab using Guid(0fad7ee2a02b24243ae0119f7bc185b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '77c2fab72624340416a740e9a6c187ef') in 0.004245458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Toon Racing/Prefabs/Props/Impact_Barrels_1B.prefab
+  artifactKey: Guid(9505771bddde44295b0c6465a253ce93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Prefabs/Props/Impact_Barrels_1B.prefab using Guid(9505771bddde44295b0c6465a253ce93) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e2a8eb566495a35f1764445d297eb379') in 0.003587417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Toon Racing/Prefabs/Props/Impact_Tires_1C.prefab
+  artifactKey: Guid(ad28e9fb86cc84a8094b0fe74323d390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Prefabs/Props/Impact_Tires_1C.prefab using Guid(ad28e9fb86cc84a8094b0fe74323d390) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ac6f399db19fab6a06ada8502967cb8e') in 0.006141 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 63
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Toon Racing/Prefabs/Props/Impact_Tires_2A.prefab
+  artifactKey: Guid(832567b379e9446a0bf0a151658e0148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Prefabs/Props/Impact_Tires_2A.prefab using Guid(832567b379e9446a0bf0a151658e0148) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bf6a5ccc2e48c41a0c926b8f399e26c5') in 0.004594959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 64
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029611 seconds.
+  path: Assets/Toon Racing/Prefabs/Track Kit/Fence_1A.prefab
+  artifactKey: Guid(7cdc6e2289e324259a695d2702663964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Prefabs/Track Kit/Fence_1A.prefab using Guid(7cdc6e2289e324259a695d2702663964) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '095b4140d0192354081b799f8fd35d75') in 0.004315875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Toon Racing/Prefabs/Track Kit/Fence_2A.prefab
+  artifactKey: Guid(002041dbea6e64beab2bf8fb311e9dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Prefabs/Track Kit/Fence_2A.prefab using Guid(002041dbea6e64beab2bf8fb311e9dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '33a407268f4bc5ab4d12a4d9323b346c') in 0.00391 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Toon Racing/Prefabs/Track Kit/Fence_3B.prefab
+  artifactKey: Guid(a48c8301d95e84bd98ef2da3a4b60096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Prefabs/Track Kit/Fence_3B.prefab using Guid(a48c8301d95e84bd98ef2da3a4b60096) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '36d90ae85c66b23a9ab5c96c844af456') in 0.005981209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Toon Racing/Prefabs/Track Kit/Fence_3A.prefab
+  artifactKey: Guid(35dfd20fc8eb84a7fb01e20b352eb126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Prefabs/Track Kit/Fence_3A.prefab using Guid(35dfd20fc8eb84a7fb01e20b352eb126) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '72dd408be5735a0fb0f2868218beb04b') in 0.004089959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041672 seconds.
+  path: Assets/Toon Racing/Prefabs/Props/Cone_1B.prefab
+  artifactKey: Guid(3ccd17d6b399a4506bf46b2a49b34eef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Prefabs/Props/Cone_1B.prefab using Guid(3ccd17d6b399a4506bf46b2a49b34eef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6820585efc59866b14ff720926431a0a') in 0.005119166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Toon Racing/Prefabs/Track Kit/Dirt_Ramp_1C.prefab
+  artifactKey: Guid(363304baff1a4354ea88a7d0b6b7243b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Prefabs/Track Kit/Dirt_Ramp_1C.prefab using Guid(363304baff1a4354ea88a7d0b6b7243b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a9e177936055ad251c07562da0552103') in 0.004125458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Toon Racing/Prefabs/Track Kit/Dirt_Ramp_1A.prefab
+  artifactKey: Guid(25b426a566ca11a4eace06a5c1c07909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Prefabs/Track Kit/Dirt_Ramp_1A.prefab using Guid(25b426a566ca11a4eace06a5c1c07909) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b978253f07067cc44a07f571e48590e6') in 0.004421334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Toon Racing/Prefabs/Track Kit/Curve_1C.prefab
+  artifactKey: Guid(b72e4d87a641a4535a5cee9a0887c5ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Prefabs/Track Kit/Curve_1C.prefab using Guid(b72e4d87a641a4535a5cee9a0887c5ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0eb30e15e18b9a89bd9dd4ab4269bfdc') in 0.004186334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045688 seconds.
+  path: Assets/Toon Racing/Prefabs/Props/Barrel_1B.prefab
+  artifactKey: Guid(53b6511ad8d374481849662ff28bcc3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Prefabs/Props/Barrel_1B.prefab using Guid(53b6511ad8d374481849662ff28bcc3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '19c97ab54148286cc7a97273eac86c28') in 0.003902417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Toon Racing/Prefabs/Track Kit/Billboard_2F.prefab
+  artifactKey: Guid(e3c064b0c1b2044b78329d5f6de5d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Prefabs/Track Kit/Billboard_2F.prefab using Guid(e3c064b0c1b2044b78329d5f6de5d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3de4554739f5dc4a91768650dfc4dd07') in 0.011768833 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Toon Racing/Prefabs/Track Kit/Canopy_1C.prefab
+  artifactKey: Guid(7e0adbedde3c6428d95b6b85c4244c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Prefabs/Track Kit/Canopy_1C.prefab using Guid(7e0adbedde3c6428d95b6b85c4244c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '085ba14cbf281cb69284bfe7f435f272') in 0.003458166 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.068090 seconds.
+  path: Assets/Toon Racing/Prefabs/Track Kit/Serpentine_1A_Long.prefab
+  artifactKey: Guid(7be7f785b99a4496ab95f3fb1c26d655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Prefabs/Track Kit/Serpentine_1A_Long.prefab using Guid(7be7f785b99a4496ab95f3fb1c26d655) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f7370dd4ae44ca2a2b44014bdc4e9be5') in 0.004695042 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Toon Racing/Prefabs/Track Kit/Serpentine_1A_Medium.prefab
+  artifactKey: Guid(30e497bd83a8e41468b8fbcca5b53d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Prefabs/Track Kit/Serpentine_1A_Medium.prefab using Guid(30e497bd83a8e41468b8fbcca5b53d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bf9dcf4a359c0efc5e3aac8c96f91b57') in 0.004157 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Toon Racing/Prefabs/Track Kit/Serpentine_1B_Long.prefab
+  artifactKey: Guid(01529011f48be4a239ea501f295b35c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Prefabs/Track Kit/Serpentine_1B_Long.prefab using Guid(01529011f48be4a239ea501f295b35c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '720dcdd10becf184c4b1193524f5c0ad') in 0.003696125 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Toon Racing/Prefabs/Track Kit/Sign_Support_1B.prefab
+  artifactKey: Guid(7bfe4b6ba7a73491facb9be5d4187938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Prefabs/Track Kit/Sign_Support_1B.prefab using Guid(7bfe4b6ba7a73491facb9be5d4187938) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c19c2811937eed19942c380b1a1d3c94') in 0.009647 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Toon Racing/Prefabs/Track Kit/Sign_Support_1A.prefab
+  artifactKey: Guid(c452b6680281b484fa53a30003594f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Prefabs/Track Kit/Sign_Support_1A.prefab using Guid(c452b6680281b484fa53a30003594f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e7f0aabed762612dc0b283c96c2a7f95') in 0.005315542 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Toon Racing/Prefabs/Track Kit/Sign_Support_1C.prefab
+  artifactKey: Guid(116cec76f4d244e49bbe1a26f6bf989c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Prefabs/Track Kit/Sign_Support_1C.prefab using Guid(116cec76f4d244e49bbe1a26f6bf989c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3ea9f13013ad26f8713a3eaac144ea7d') in 0.004790584 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Toon Racing/Prefabs/Track Kit/Serpentine_1B_Medium.prefab
+  artifactKey: Guid(ebdd7335a24b34a4fa3e23853cad4ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Prefabs/Track Kit/Serpentine_1B_Medium.prefab using Guid(ebdd7335a24b34a4fa3e23853cad4ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f668192591d80900b1cddc3598f038fa') in 0.004298292 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025801 seconds.
+  path: Assets/Toon Racing/Prefabs/Track Kit/Sign_Support_1D.prefab
+  artifactKey: Guid(83675570a877947c7a60702192997f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Prefabs/Track Kit/Sign_Support_1D.prefab using Guid(83675570a877947c7a60702192997f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '606235a3cb2f21dd61723f0743bf25c8') in 0.005920833 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Toon Racing/Prefabs/Track Kit/Special_1A.prefab
+  artifactKey: Guid(0ac9677067f6d47239fa2ffd9e81e665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Prefabs/Track Kit/Special_1A.prefab using Guid(0ac9677067f6d47239fa2ffd9e81e665) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cec0e4504c77042961e02dd5d57b3c91') in 0.004027125 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Toon Racing/Prefabs/Track Kit/Sign_Support_2A.prefab
+  artifactKey: Guid(f26f9c72c784c4c6888fcf784b19b0c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Prefabs/Track Kit/Sign_Support_2A.prefab using Guid(f26f9c72c784c4c6888fcf784b19b0c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bb12e1a993ab0b56bbbd07469b5ddbcb') in 0.004321209 seconds
+Internal: JobTempAlloc has allocations that are more than the maximum lifespan of 4 frames old - this is not allowed and likely a leak
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Toon Racing/Prefabs/Track Kit/Sign_Support_2B.prefab
+  artifactKey: Guid(5439074860feb46a1ba4f09c83b4d19e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Prefabs/Track Kit/Sign_Support_2B.prefab using Guid(5439074860feb46a1ba4f09c83b4d19e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4f52b0bf78760e58333005a1697f9c01') in 0.005744125 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Toon Racing/Prefabs/Track Kit/Special_1C.prefab
+  artifactKey: Guid(3c403f667eb4f4d558689196a3e0e2cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Prefabs/Track Kit/Special_1C.prefab using Guid(3c403f667eb4f4d558689196a3e0e2cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8551e93e7dd7dfdfd10cca64589e171c') in 0.003756292 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.531743 seconds.
+  path: Assets/Toon Racing/Prefabs/Track Kit/Spotlight_Support_1A.prefab
+  artifactKey: Guid(4e8f7d66d2c1b4a8ca93ac17b40523de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Prefabs/Track Kit/Spotlight_Support_1A.prefab using Guid(4e8f7d66d2c1b4a8ca93ac17b40523de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '05db7c9d1cb55b3c29f0e6baebecf91d') in 0.004222833 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Toon Racing/Prefabs/Track Kit/Stand_1C.prefab
+  artifactKey: Guid(6b03198e37747453c94cab86e5fa6c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Prefabs/Track Kit/Stand_1C.prefab using Guid(6b03198e37747453c94cab86e5fa6c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '374c2483f548c6d791685f3da657bd00') in 0.004955875 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Toon Racing/Prefabs/Track Kit/Spotlight_Support_1B.prefab
+  artifactKey: Guid(5023eaed8ed6145efa60755c6831bceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Prefabs/Track Kit/Spotlight_Support_1B.prefab using Guid(5023eaed8ed6145efa60755c6831bceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a8967befcdb53bc913a66b55d2bf8f8c') in 0.005277542 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Toon Racing/Prefabs/Track Kit/Stand_1B.prefab
+  artifactKey: Guid(7f82c742c3e99496da80c9f537671ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Prefabs/Track Kit/Stand_1B.prefab using Guid(7f82c742c3e99496da80c9f537671ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '10788bc44085ca9deb938cae97ff4609') in 0.004751042 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044712 seconds.
+  path: Assets/Toon Racing/Prefabs/Track Kit/Straight_1A.prefab
+  artifactKey: Guid(7cbd70083cc8c4e52a9dfb8161804720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Prefabs/Track Kit/Straight_1A.prefab using Guid(7cbd70083cc8c4e52a9dfb8161804720) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '71f547bd1bd7685ddfa78485077be8ec') in 0.00460775 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Toon Racing/Prefabs/Track Kit/Straight_1D.prefab
+  artifactKey: Guid(56b867ec31aa8416c8beebf0a9d78355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Prefabs/Track Kit/Straight_1D.prefab using Guid(56b867ec31aa8416c8beebf0a9d78355) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '12855bb3ec931d7b38dfcac3e1afef87') in 0.004911208 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Toon Racing/Prefabs/Track Kit/Straight_1C.prefab
+  artifactKey: Guid(69d591fab35b74543b686bbde1d94963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Prefabs/Track Kit/Straight_1C.prefab using Guid(69d591fab35b74543b686bbde1d94963) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '82a6b2e56e7a035a84b9824ec44e852e') in 0.004870083 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Toon Racing/Prefabs/Track Kit/Straight_1B.prefab
+  artifactKey: Guid(40b57b19fe54948058432fc1a814eddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Prefabs/Track Kit/Straight_1B.prefab using Guid(40b57b19fe54948058432fc1a814eddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a9986e890a88003eb3f2ee6407d447ba') in 0.00403675 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.811419 seconds.
+  path: Assets/Toon Racing/Prefabs/Track Kit/Straight_1F_Long.prefab
+  artifactKey: Guid(9c5d3d73b0766449199ae29487c2372a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Prefabs/Track Kit/Straight_1F_Long.prefab using Guid(9c5d3d73b0766449199ae29487c2372a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '19b62cf6bd3c77366c99aaab3c6e4bc6') in 0.00389175 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Toon Racing/Prefabs/Props/Translation_Marker.prefab
+  artifactKey: Guid(b5a9ece20f31414459c261882857f022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Prefabs/Props/Translation_Marker.prefab using Guid(b5a9ece20f31414459c261882857f022) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '118332e32ad22cc7d0a4fbb38eefa74a') in 0.005591708 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Toon Racing/Prefabs/Track Kit/Straight_1F_Short.prefab
+  artifactKey: Guid(204764b412fe240b8b3c15686e83d760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Prefabs/Track Kit/Straight_1F_Short.prefab using Guid(204764b412fe240b8b3c15686e83d760) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '77564148e4d7724e9582f0a42e36bfc8') in 0.004409458 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 86.819798 seconds.
+  path: Assets/Toon Racing/Models/Stand_1A.fbx
+  artifactKey: Guid(6c148a35e8d2f43cd92c179ef3d7acf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Models/Stand_1A.fbx using Guid(6c148a35e8d2f43cd92c179ef3d7acf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e7fd0cd762cd5cf079569233d9e6e7c3') in 0.065180625 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Toon Racing/Models/Colliders/Tower_1A_MeshCollider.fbx
+  artifactKey: Guid(e6f25346da89d44fea1c445b2166fbe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Models/Colliders/Tower_1A_MeshCollider.fbx using Guid(e6f25346da89d44fea1c445b2166fbe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '41952550eff7f8d6fd209ff330441cf4') in 0.009350292 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Toon Racing/Models/Translation_Marker.fbx
+  artifactKey: Guid(74464377e7a8e4b01b8bb9b9fe1b5c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Models/Translation_Marker.fbx using Guid(74464377e7a8e4b01b8bb9b9fe1b5c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca7f91388ffe21dcc46ff199f4fb76c5') in 0.008523209 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Toon Racing/Models/Straight_1B.fbx
+  artifactKey: Guid(9210cf0a1a64243e99d431e3919aa564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Models/Straight_1B.fbx using Guid(9210cf0a1a64243e99d431e3919aa564) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5dae24fa650e6993014830ad080384ab') in 0.016095042 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Toon Racing/Models/Straight_1A.fbx
+  artifactKey: Guid(7c0093c26a4a34a309ed1f71ec3a0dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Models/Straight_1A.fbx using Guid(7c0093c26a4a34a309ed1f71ec3a0dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '702ed5ee61008e38e72eed757c0b6a0b') in 0.008302125 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Toon Racing/Models/Stand_1C.fbx
+  artifactKey: Guid(bbeb8e9585e564ecb9742be2f5f71fdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Models/Stand_1C.fbx using Guid(bbeb8e9585e564ecb9742be2f5f71fdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b651bc26903984a50689fd00b4a9033b') in 0.014567083 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Toon Racing/Models/Straight_1F_Short.fbx
+  artifactKey: Guid(b98ba7a8ab4544ac89c29b24fd5233c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Models/Straight_1F_Short.fbx using Guid(b98ba7a8ab4544ac89c29b24fd5233c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '35126e67e28b44b6e56fb0e139bc3583') in 0.00965025 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Toon Racing/Models/Straight_1E.fbx
+  artifactKey: Guid(7729b7d03fd6a453d8e5cd766c1bc558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Models/Straight_1E.fbx using Guid(7729b7d03fd6a453d8e5cd766c1bc558) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '125118ccac45bb800ad268c67a91240b') in 0.006651875 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Toon Racing/Models/Straight_1F_Long.fbx
+  artifactKey: Guid(f4931b978068a46c998c7ddda388e6df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Models/Straight_1F_Long.fbx using Guid(f4931b978068a46c998c7ddda388e6df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e5a51161ad7ded667edea621d928a822') in 0.014777833 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Toon Racing/Models/Straight_1E_Long.fbx
+  artifactKey: Guid(25cb1429412fe4aceba65e56f49973cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Models/Straight_1E_Long.fbx using Guid(25cb1429412fe4aceba65e56f49973cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3fe6b20ace4e47efd278a136384e4459') in 0.015018958 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Toon Racing/Models/Straight_1D_Long.fbx
+  artifactKey: Guid(710646b293b5444289da5247224a0b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Models/Straight_1D_Long.fbx using Guid(710646b293b5444289da5247224a0b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2b6d762c96e420e31d7b9ee945284fed') in 0.011186208 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 97.404748 seconds.
+  path: Assets/Toon Racing/Terrain/Layers/Layer_Dirt_1B.terrainlayer
+  artifactKey: Guid(41453bb69f49de24bb15e4e5bc76942e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Terrain/Layers/Layer_Dirt_1B.terrainlayer using Guid(41453bb69f49de24bb15e4e5bc76942e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c60a33b2272a8231054d143487e5b855') in 0.053331125 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Toon Racing/Terrain/Layers/Layer_Dirt_1D.terrainlayer
+  artifactKey: Guid(d23bd2c558bec6e45990d82d5a59572c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Terrain/Layers/Layer_Dirt_1D.terrainlayer using Guid(d23bd2c558bec6e45990d82d5a59572c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5c4f68264a8fc032b164faab765bef35') in 0.006465875 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Toon Racing/Terrain/Layers/Layer_Sand_1A.terrainlayer
+  artifactKey: Guid(ccaf4518fa24c8742b98061fcb4594fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Terrain/Layers/Layer_Sand_1A.terrainlayer using Guid(ccaf4518fa24c8742b98061fcb4594fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bbe494afaaf543f70675b2fc705d6cdb') in 0.005080125 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 125.111523 seconds.
+  path: Assets/New Terrain 1.asset
+  artifactKey: Guid(d1f352f55110b4171834dd657b208d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 1.asset using Guid(d1f352f55110b4171834dd657b208d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '63c76a170acec11a31e637c97773718d') in 0.023566916 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 179.439779 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(dd6f784fd1ae842ea88c073c6d5c5035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(dd6f784fd1ae842ea88c073c6d5c5035) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'db15442fb92cdfed91eeb03205a3c37a') in 0.008017417 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 249.624520 seconds.
+  path: Assets/Toon Racing/Profiles/LUT/Clear_Day_1.psd
+  artifactKey: Guid(39a09b27c8657d846a5aebd37c3236ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Profiles/LUT/Clear_Day_1.psd using Guid(39a09b27c8657d846a5aebd37c3236ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '13e65e23187ef7f9ba6cf9c77021d470') in 0.06336225 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Toon Racing/Textures/Rally_Car_3A_D.psd
+  artifactKey: Guid(cf353f7e385ae465187a37021b3c97c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Textures/Rally_Car_3A_D.psd using Guid(cf353f7e385ae465187a37021b3c97c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '76ca732111c0ebcc775476f11ac9d440') in 0.005991833 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/Toon Racing/Textures/Rally_Car_2B_D.psd
+  artifactKey: Guid(c4a7fa9324e3c42e1bc3a6ae2125a66d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Textures/Rally_Car_2B_D.psd using Guid(c4a7fa9324e3c42e1bc3a6ae2125a66d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd36dce85c4b86356e6e3c4f81890d2a6') in 0.004530583 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Toon Racing/Textures/Race_Car_6A_Ramp.psd
+  artifactKey: Guid(82add713ef1c44bab910ac5a6ccc09c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Textures/Race_Car_6A_Ramp.psd using Guid(82add713ef1c44bab910ac5a6ccc09c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '14d946fc51c9abb5677a8e3190137285') in 0.003989 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Toon Racing/Textures/Monster_Truck_10A_D.psd
+  artifactKey: Guid(f692f0be397104ea288ef3be4054a15b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Textures/Monster_Truck_10A_D.psd using Guid(f692f0be397104ea288ef3be4054a15b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '78d997ba70f83d811309f000bb301c35') in 0.005650291 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Toon Racing/Textures/Rally_Car_2A_D.psd
+  artifactKey: Guid(ece26dfd1078c4031ade67007bf8f583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Textures/Rally_Car_2A_D.psd using Guid(ece26dfd1078c4031ade67007bf8f583) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4b8cdbb4b7b54189779b10570619d61f') in 0.00423975 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Toon Racing/Textures/Monster_Truck_12A_D.psd
+  artifactKey: Guid(82f7f4307b1ae4c488fd53b38e1f94ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Textures/Monster_Truck_12A_D.psd using Guid(82f7f4307b1ae4c488fd53b38e1f94ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fe526d8bfe3a71438c829d6e244452d8') in 0.003922667 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Toon Racing/Textures/Race_Car_8C_D.psd
+  artifactKey: Guid(8d372af3cf3835441ac5e1814085dcc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Textures/Race_Car_8C_D.psd using Guid(8d372af3cf3835441ac5e1814085dcc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0ebb14b86f7285d88f4a95a55ce8bef6') in 0.003567667 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Toon Racing/Textures/Race_Car_5A_Ramp.psd
+  artifactKey: Guid(a5997524dfd1d4ec6ac3cd24659a552b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Textures/Race_Car_5A_Ramp.psd using Guid(a5997524dfd1d4ec6ac3cd24659a552b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '54e56b1611a89be7d2ac9cbeb5f401cf') in 0.016469667 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Toon Racing/Textures/Monster_Truck_9A_Ramp.psd
+  artifactKey: Guid(97eb48fc1cc044d67964d947a0f89342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Textures/Monster_Truck_9A_Ramp.psd using Guid(97eb48fc1cc044d67964d947a0f89342) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '63be1e8762f58491d8c813455f4d9755') in 0.00332175 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Toon Racing/Textures/Tiles_1B.psd
+  artifactKey: Guid(9e8c093af776f41238341d495e9d7a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Textures/Tiles_1B.psd using Guid(9e8c093af776f41238341d495e9d7a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fe3368d66087d139d11c4cadf34621cf') in 0.003568959 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Toon Racing/Textures/Rally_Car_1A_D.psd
+  artifactKey: Guid(27c4f5e5f82a04739bb70a913aa89b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Textures/Rally_Car_1A_D.psd using Guid(27c4f5e5f82a04739bb70a913aa89b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0acd174c9110f08ef0eaeaef55100aa8') in 0.003610792 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Toon Racing/Textures/Rally_Car_4A_Ramp.psd
+  artifactKey: Guid(c19488ef00b3f4665b157a2c8f75b563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Textures/Rally_Car_4A_Ramp.psd using Guid(c19488ef00b3f4665b157a2c8f75b563) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6f9a55a716828921039f2ed1ab5e7d51') in 0.002706458 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Toon Racing/Textures/Sand_1A.psd
+  artifactKey: Guid(7f09cd99c384a5b45816b67c52935f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Textures/Sand_1A.psd using Guid(7f09cd99c384a5b45816b67c52935f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2fd87cc7fa3297fb90f2104dd5f576e4') in 0.003106166 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Toon Racing/Textures/Monster_Truck_10A_Ramp.psd
+  artifactKey: Guid(b7ce56c1d852f44d0811b0de58d5a207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Textures/Monster_Truck_10A_Ramp.psd using Guid(b7ce56c1d852f44d0811b0de58d5a207) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '581da16f1d10c33b61cd8882aade2558') in 0.003131625 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Toon Racing/Textures/Race_Car_7C_D.psd
+  artifactKey: Guid(714a19d209468d54f9691d3c543f9b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Textures/Race_Car_7C_D.psd using Guid(714a19d209468d54f9691d3c543f9b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '45efdaac5c1846e9043b8d71d633030b') in 0.00918275 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000434 seconds.
+  path: Assets/Toon Racing/Textures/Garage_1A_Ramp.psd
+  artifactKey: Guid(76926624097fb442aaaefd99fd9ae8fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Textures/Garage_1A_Ramp.psd using Guid(76926624097fb442aaaefd99fd9ae8fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bb578d686a3cf676d7689678f02b42cd') in 0.005426459 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Toon Racing/Textures/Rally_Car_2C_D.psd
+  artifactKey: Guid(9431c01a93c3d594593f9a24b254a99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Textures/Rally_Car_2C_D.psd using Guid(9431c01a93c3d594593f9a24b254a99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6aa9b06cb0bbed64ef366b9e247ebc2e') in 0.006999291 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Toon Racing/Textures/Stripes_1A.psd
+  artifactKey: Guid(078dbf6e5b4a04604acab38019e327bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Textures/Stripes_1A.psd using Guid(078dbf6e5b4a04604acab38019e327bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '822d5ef78f3124e95b909eafd4edfbe3') in 0.006056833 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Toon Racing/Textures/Tiles_1C.psd
+  artifactKey: Guid(750510bf36b47407daf5c40d39b3bcde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Textures/Tiles_1C.psd using Guid(750510bf36b47407daf5c40d39b3bcde) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b161e46fe5c52c432899819c4f02cdc4') in 0.004144292 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Toon Racing/Textures/Race_Car_6A_D.psd
+  artifactKey: Guid(79723b324c1b04fd99dd643ad3f376f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Textures/Race_Car_6A_D.psd using Guid(79723b324c1b04fd99dd643ad3f376f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ddd7c404c52169c761bd0d294d423cb4') in 0.004262333 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Toon Racing/Textures/Flower_Billboard_1A.psd
+  artifactKey: Guid(f257a957cf5e5d14ebde5ae792207d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Textures/Flower_Billboard_1A.psd using Guid(f257a957cf5e5d14ebde5ae792207d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '291ddb250c6c384c024018300b4b34ab') in 0.004228292 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Toon Racing/Textures/Road_1A_Ramp.psd
+  artifactKey: Guid(3078985a0033c4774aef5259fef0fc45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Textures/Road_1A_Ramp.psd using Guid(3078985a0033c4774aef5259fef0fc45) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3e6a31b8e77e90d8e902a0f8f771b7fa') in 0.003086459 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Toon Racing/Textures/Monster_Truck_11A_Ramp.psd
+  artifactKey: Guid(f591fef1a183f44b2be5752132ba92ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Textures/Monster_Truck_11A_Ramp.psd using Guid(f591fef1a183f44b2be5752132ba92ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9419ad399a7b316e9c735b8f325c40cb') in 0.002604916 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Toon Racing/Textures/Race_Car_5B_D.psd
+  artifactKey: Guid(ebaa2668471e6460f8dec24f1cc38de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Textures/Race_Car_5B_D.psd using Guid(ebaa2668471e6460f8dec24f1cc38de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2b55a817183adba16b7d853bbd4ad6dd') in 0.003717459 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Toon Racing/Textures/Grass_1A.psd
+  artifactKey: Guid(081e6ea6e93834f61b0fb2c58b7e2209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Textures/Grass_1A.psd using Guid(081e6ea6e93834f61b0fb2c58b7e2209) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '28598d48eb53e0ae0303bd1f59e98c8d') in 0.008964083 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Toon Racing/Textures/Grass_1B.psd
+  artifactKey: Guid(fbbbcdf8b8f24c748b64f502852519c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Textures/Grass_1B.psd using Guid(fbbbcdf8b8f24c748b64f502852519c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4bec52a202dd5e7900ad73e82e7b64d8') in 0.006843667 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
